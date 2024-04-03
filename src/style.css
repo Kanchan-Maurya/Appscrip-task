@@ -1,0 +1,580 @@
+.top{
+    height: 2rem;
+    width: 100vw;
+    background-color: black;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.para{
+    color: white;   
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.4px;
+    /* border: 2px solid gray; */
+    height: 1rem;
+    margin-bottom:0.6rem;
+    
+    
+}
+.top-text{
+    display: flex;
+    align-items: center;
+   
+    /* border: 2px solid wheat; */
+}
+.icon-img{
+    margin-right:10px ;
+    height: 16px;
+    width: 16px;
+}
+.hearder-nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+
+}
+.header-text h1{
+    margin-left: 209px;
+}
+#engDropdown{
+    border: none;
+    background: none;
+}
+.nav-icons{
+    display: flex;
+    justify-content: space-between;
+    width: 15rem;
+    
+    
+}
+.nav-icons .svg-inline--fa {
+    font-size: 24px; 
+}
+#navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#navbar li{
+    list-style: none;
+    padding: 0 20px ;
+    position: relative;
+}
+#navbar li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: 0.3s ease-in-out;
+}
+#navbar li a:hover{
+    color: #f77761;
+}
+#navbar li a:hover::after{
+    content: "";
+    width: 40%;
+    height: 2px;
+    background-color: #f77761;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+
+#times {
+    font-size: 24px;
+    width: 24px; 
+    height: 24px; 
+}
+#nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#mobile{
+    display: none;
+}
+hr{
+    opacity: 0.3;
+}
+#page-heading #heading{
+    font-size: 3rem;
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+    /* text-align: center; */
+
+}
+
+.heading_info{
+    font-size: 1.2em;
+    text-align: center;
+    font-weight: 300;
+    line-height: 1em;
+    
+} 
+#page-heading{
+    align-items: center;
+   
+    
+}
+span{
+    font-stretch: extra-expanded;
+}
+#page-heading {
+    text-align: center;
+}
+
+#page-heading p {
+    margin: 0.5em; 
+}
+.main-cont{
+    margin-left: 5%;
+    margin-right: 5%;
+    /* padding-top: 10 rem; */
+    
+}
+.cont-head{
+    display: flex;
+   
+}
+.const-head.right-head{
+    justify-content: flex-end;
+}
+.dropdown{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.dropdown button{
+    border: none;
+    background: none;
+    font-size: 18px;
+    border: 2px solid red ;
+    height: 59px;
+    width: 215px;
+    display: flex;
+    justify-content: flex-start;
+}
+.right-head{
+    width: 350px;
+    /* border: 2px solid green; */
+    justify-content: flex-end;
+    
+    display: flex;
+    float: right;
+    margin-right: 3rem;
+   
+}
+#left-head{
+    display: flex;
+    float: left;
+    width: 99rem;
+    /* border: 2px solid black; */
+}
+.dropdown-content{
+    display: flex;
+    flex-direction: column;
+}
+.right-head {
+    position: relative;
+}
+
+.dropdown {
+    position: relative; 
+}
+#left-head a{
+    padding-left: 2.5rem;
+    padding-top: 1rem;
+    color: gray;
+}
+.hide-filterr{
+    font-weight: 700;
+}
+.dropdown-content {
+    position: absolute;
+    top: 100%;
+    right: 0; 
+    background-color: white; 
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    z-index: 1; 
+    height: 200px;
+    line-height: 2rem;
+    width: 200px;
+    overflow: hidden;
+    text-align: right;
+    padding-right: 10px;
+    
+}
+#filter{
+    display: none;
+}
+#main-hr{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.body-container{
+    
+    height: 100vh;
+    width: 29%;
+}
+.sidebar{
+    border: 2px solid red;
+    width: 98%;
+    height: 100vh;
+    display: inline-block;
+
+}
+.items{
+    
+    width: 31%;
+}
+.item-cont{
+    width: 69%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.img img{
+    height: 300px;
+    width: 200px;
+}
+.full-cont{
+    display: flex;
+}
+#all-desc {
+    display: flex;
+    align-items: center;
+    
+}
+
+.descr {
+    display: flex;
+    align-items: center;
+    margin-right: 4px; 
+    color: gray;
+    font-size: 13px;
+    
+}
+
+
+#about {
+    margin-right: 10px; 
+    
+}
+#signin{
+    color: gray;
+}
+#about1{
+    display: none;
+}
+.sidebar-hr{
+    
+    margin-right: 5%;
+}
+label{
+    font-size: 18px;
+    margin-left: 10px;
+}
+input[type="checkbox"] {
+    transform: scale(1.7);
+    
+}
+.sidebar-dropbtn {
+    background-color: #f0f0f0;
+    color: black;
+    border: 1px solid #bb3838;
+    margin-right: 250px;
+    font-size: 18px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+}
+.sidebar-item{
+    height: 45px;
+}
+.sidebar-dropdown {
+    position: relative; 
+}
+.sidebar-dropdown-content {
+    position: absolute; 
+    top: calc(100% + 15px); 
+    left: 0; 
+    display: flex;
+    flex-direction: column; 
+    background-color: #fff; 
+    padding: 10px; /* Optional: Add padding */
+    
+}
+.all{
+    margin-top: 0px;
+}
+.sidebar-dropbtn {
+    display: flex; /* Ensure contents are displayed in a row */
+    align-items: center; /* Align contents vertically */
+}
+.sidebar-dropbtn i {
+    margin-left: 138px; /* Add margin between button text and chevron icon */
+}
+.idealfor{
+    margin-left: -15px;
+}
+label{
+    margin-top: 12px;
+}
+input {
+    margin-right: 10px;
+}
+.sidebar-dropdown.active .sidebar-dropdown-content {
+    display: flex; /* Show the dropdown content when the button is active */
+}
+.fa-chevron-down:before{
+    margin-left: 39px;
+}
+
+
+
+
+
+
+@media screen and(min-width:710px)and (max-width:1024px){
+    .descr {
+        display: flex;
+        align-items: center;        
+        color: gray;
+        margin-right: 4px;
+        font-size: 9px;
+        
+    }
+    
+    
+}
+    
+
+
+
+
+
+@media screen and (min-width: 386px) and (max-width: 769px) {
+    .nav-icons {
+        display: flex;
+        justify-content: space-between;
+        /* border: 2px solid black; */
+        width: 11rem; 
+    }
+    .nav-icons .svg-inline--fa {
+        font-size: 19px; 
+    }
+    .header-text h1{
+        text-align: center;
+        margin-left: 7.938rem;
+    }
+    .heading_info{
+        font-size: 0.88em;
+        line-height: 1em;
+        
+    } 
+    #page-heading #heading{
+        font-size: 2rem;
+        
+    
+    }
+    .dropdown button{
+        font-size: 13px;
+    }
+    .dropdown-content{
+        font-size: 14px;
+    }
+    #left-head a{
+        font-size: 14px;
+    }
+    #left-head p{
+        font-size: 14px;
+    }
+    .items{
+    
+        width: 49%;
+    }
+    .descr{
+        font-size: 11px;
+    }
+    #about1{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:320px) {
+    #navbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start ;
+        align-items: flex-start;
+        position: fixed;
+        left: -300px;
+        width: 200px;
+        height: 100vh;
+        background-color: #f77761;
+        box-shadow: 0 40px 60px rgba(0,0,0,0.2);
+        padding: 20px 0 0 1px;
+        transition: 0.3s ease-in-out;
+        z-index: 1;
+    }
+    .nav-icons{
+        margin-right: 1rem;
+    }
+    #navbar.active{
+        left:0px;
+    }
+    #navbar li{
+        margin-bottom: 25px;
+    }
+    #mobile{
+        display: block;
+    }
+    #mobile i{
+        font-size: 26px;
+        cursor: pointer;
+        /* padding-right: 100px; */
+    }
+    #mobile{
+        height: auto;
+        width: 2.5rem;
+        /* border: 2px solid red; */
+        padding-left: 0.5em;
+    }
+    .test{
+        /* border: 2px solid green; */
+        display: flex;
+        margin-right: 80px;
+        width: 2rem;
+    }
+    .header-logo img{
+       height: 1.5rem;
+       width: 1.5rem;
+       padding-left: 10px;
+
+    }
+    #bar{
+      font-size: 2px;
+
+    }
+    .iconss {
+        display: none;
+    }
+    .nav-icons .svg-inline--fa {
+        font-size: 16px; 
+        height: 1.1rem;
+        margin-right: 8px;
+    }
+    #engDropdown{
+        display: none;
+    }
+    .nav-icons{
+        width: 4rem;
+    }
+    .header-text h1{
+        width: auto;
+        font-size: 1.5rem;
+        paddin.sidebar-dropbtn {
+            display: flex;
+            align-items: center; /* Align items vertically */
+            justify-content: space-between; /* Distribute space evenly between items */
+        }
+        
+        .sidebar-dropbtn i {
+            font-size: inherit; /* Set the icon font size to inherit from the parent (button text) */
+            margin-left: 5px; /* Adjust the spacing between the text and the icon */
+        }
+        g-right: 10px;
+        margin-left: 0;
+        
+        /* margin-right: 5rem; */
+    }
+    #icon-img1{
+        display: none;
+
+    }
+    #icon-img3{
+        display: none;
+        
+    }
+    #para1{
+        display: none;
+    }
+    #para3{
+        display: none;
+    }
+    .heading_info{
+        font-size: 0.88em;
+        line-height: 1em;
+        
+    } 
+    #page-heading #heading{
+        font-size: 1rem;
+        
+    
+    }
+    #filter{
+        display: flex;
+        font-weight: 400;
+        font-size: 15px;
+        margin-left: 1rem;
+    }
+    .hide-filterr{
+        display: none;
+        
+    }
+    .hide-filter{
+        display: none;
+    }
+    .dropdown button{
+        font-size: 15px;
+        font-weight: 500;
+        width: 14rem;
+        float: right;
+    }
+    .dropdown-content{
+        font-weight: 400;
+        font-size: 16px;
+        
+    }
+    .items{
+    
+        width: 100%;
+    }
+    .body-container{
+        display: none;
+    }
+    #about{
+        display: none;
+    }
+    #all-desc{
+        /* display: flex; */
+        justify-content: space-between;
+    }
+    #about1{
+        display: block;
+        font-size: 13px;
+        color: gray;
+    
+    }
+    .heart-icon{
+        margin-right: -40px;
+    }
+   
+  
+    
+    
+}
+
+
