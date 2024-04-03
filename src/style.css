@@ -152,7 +152,7 @@ span{
     border: none;
     background: none;
     font-size: 18px;
-    border: 2px solid red ;
+    /* border: 2px solid red ; */
     height: 59px;
     width: 215px;
     display: flex;
@@ -221,7 +221,7 @@ span{
     width: 29%;
 }
 .sidebar{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 98%;
     height: 100vh;
     display: inline-block;
@@ -340,8 +340,80 @@ input {
 .fa-chevron-down:before{
     margin-left: 39px;
 }
+footer{
+    margin-left: 5%;
+    margin-right: 5%;
+    /* border: 2px solid red; */
+    color: white;
+    background-color: black;
+}
+.main-footer{
+    margin-left: 10%;
+    margin-right: 10%;
+    /* border: 2px solid green; */
+    margin-top: 40px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+#lower-footerpart{
+    display: flex;
+    justify-content: space-between;
+}
+.usd-img {
+    display: flex;
+    align-items: center; 
+}
+.usd-img img {
+    margin-right: 5px; 
+}
+#signup{
+    font-size: 20px;
+    
+}
+#email{
+    width: 230px;
+    height: 60px;
+}
+#email::placeholder {
+    font-size: 19px;
+    padding-left: 30px;
+    padding-top: 60px;
+}
+#btn{
+    height:60px;
+    width: 140px;
+    font-size: 20px;
+}
+#input-btn{
+    margin-top: 45px;
+    /* border: 2px solid red; */
+}
+.about-page{
+    font-size: 20px;
+}
+#hr-footer{
+    font-weight: 600;
+    
+}
+.hr-footer{
+    display: none;
+}
+.social-icon {
+    font-size: 40px;
+    padding-right: 10px;
+}
 
-
+.payment-icon {
+    
+    font-size: 35px;
+    padding-right: 10px;
+}
+#copyright{
+    text-align: center;
+    padding-bottom: 1rem;
+}
 
 
 
@@ -355,7 +427,51 @@ input {
         font-size: 9px;
         
     }
-    
+    #left-foooter{
+        width: 60%;
+    }
+    #right-footer{
+         width:30%;
+    } 
+  
+    #email::placeholder {
+        font-size: 17px;
+        padding-left: 20px;
+        padding-top: 40px;
+    }
+    .main-footer{
+        margin-left: 3%;
+        margin-right: 3%;
+        margin-top: 11px;
+    }
+    #right-footer{
+        display: flex;
+        margin-left: 100px;
+    }
+    .footer{
+        display: flex;
+        justify-content: space-between;
+    }#email{
+        height: 39px;
+        width: 170px;
+
+    }
+    .hr-footer{
+        display: none;
+    }
+    /* #email::placeholder{
+        font-size: 13px;
+    } */
+    #btn{
+        height: 39px;
+        font-size: 14px;
+        width: 71px;
+    }
+    #input-btn{
+        display: flex;
+        align-items: center;
+    }
+
     
 }
     
@@ -410,6 +526,33 @@ input {
     #about1{
         display: none;
     }
+    .hr-footer{
+        display: none;
+    }
+    .about-page{
+        font-size: 14px;
+    }
+    h2{
+        font-size: 1rem;
+    }
+    #email{
+        height: 39px;
+        width: 170px;
+
+    }
+    #email::placeholder{
+        font-size: 13px;
+    }
+    #btn{
+        height: 39px;
+        font-size: 14px;
+        width: 71px;
+    }
+    #input-btn{
+        display: flex;
+        align-items: center;
+    }
+   
 
 }
 
@@ -540,8 +683,9 @@ input {
     .dropdown button{
         font-size: 15px;
         font-weight: 500;
-        width: 14rem;
+        width: 7.3rem;
         float: right;
+        padding-top: 1rem;
     }
     .dropdown-content{
         font-weight: 400;
@@ -571,8 +715,59 @@ input {
     .heart-icon{
         margin-right: -40px;
     }
+    .footer{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    #lower-footerpart{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .about-page{
+        font-size: 12px;
+    }
+    h2{
+        font-size: 14px;
+    }
+    .social-icon {
+        font-size: 20px;
+        padding-right: 5px;
+    }
+    
+    .payment-icon {
+        
+        font-size: 20px;
+        padding-right: 5px;
+    }
+    #copyright{
+        text-align: center;
+        padding-bottom: 1rem;
+        font-size: 12px;
+    }
+    .hr-footer{
+        width: 100%;
+        display: inlineru;
+    }
+    #email{
+        width: 100px;
+        height: 25px;
+        font-size: 10px;
+    }
+    #btn{
+        width: 100px;
+        height: 28px;
+        font-size: 12px;
+        padding-left: 10px;
+        cursor: pointer;
+    }
+    #email::placeholder {
+        font-size: 10px;
+        padding-left: 10px;
+        cursor: pointer;
+    }
    
-  
     
     
 }
